@@ -1,0 +1,24 @@
+test:
+  setup:
+    upper_case : true
+    top_comma : false
+    remove_newline: true
+#  derectives:
+#    -
+  blocks:
+    - as
+  star_indent:
+    - (
+  end_indent:
+    - )
+  indent:
+    default: 4
+    join : 2
+  spcase_before:
+    - ','
+  space_after:
+    - ','
+  newline:
+    - join
+#    join: on
+
